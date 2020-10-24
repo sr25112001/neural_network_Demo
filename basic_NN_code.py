@@ -1,4 +1,5 @@
 # shubham
+# NOTE : drafted...
 import numpy as np
 
 
