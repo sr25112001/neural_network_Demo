@@ -45,7 +45,7 @@ for iteration in range(no_of_iterations):
     adjustments = error * d_sigmoid(outputs)
     input_layer.weights += np.dot(training_inputs.T, adjustments)
     
-    time.sleep(pause_time)
+    time.sleep(pause_time) # for real time observation  
     #print('actual predicted outputs :', outputs.T)  #uncomment to see actual predicted values
     print('iteration no.',iteration+1)
     print('correct outputs : ', training_outputs.T)
